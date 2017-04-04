@@ -39,8 +39,8 @@ if (array_key_exists("user", $_SESSION)) {
 <p>Please log in</p>
   <!--Show the login:--> 
   <form method="POST" action="login.php">
-  <input type="text" name="user"/>
-  <input type="password" name="password"/>
+  <input type="text" name="user" required/>
+  <input type="password" name="password" required/>
   <input type="submit" value="Log in!"/>
   </form>
   <?php 
